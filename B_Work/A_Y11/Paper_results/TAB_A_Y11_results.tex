@@ -1,0 +1,160 @@
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.25, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf25}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.62\pm0.02$ & $0.72\pm0.02$ & $0.88\pm0.02$ & $0.89\pm0.03$ & $0.94\pm0.03$ & $0.90\pm0.04$ & $0.92\pm0.02$ & $0.96\pm0.02$ & $0.87\pm0.05$ & $0.91\pm0.02$ & $0.98\pm0.03$ & $0.93\pm0.06$ & $0.95\pm0.02$ \\
+      small & $0.61\pm0.02$ & $0.72\pm0.02$ & $0.90\pm0.03$ & $0.88\pm0.03$ & $0.89\pm0.09$ & $0.88\pm0.09$ & $0.88\pm0.04$ & $0.96\pm0.04$ & $0.80\pm0.08$ & $0.87\pm0.03$ & $0.97\pm0.03$ & $0.93\pm0.03$ & $0.95\pm0.02$ \\
+      medium & $0.61\pm0.03$ & $0.71\pm0.03$ & $0.89\pm0.03$ & $0.88\pm0.03$ & $0.92\pm0.04$ & $0.88\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.03$ & $0.84\pm0.05$ & $0.89\pm0.02$ & $0.97\pm0.03$ & $0.91\pm0.10$ & $0.94\pm0.05$ \\
+      large & $0.60\pm0.02$ & $0.70\pm0.01$ & $0.89\pm0.04$ & $0.86\pm0.01$ & $0.91\pm0.06$ & $0.92\pm0.03$ & $0.92\pm0.04$ & $0.98\pm0.01$ & $0.81\pm0.07$ & $0.89\pm0.04$ & $0.96\pm0.04$ & $0.91\pm0.05$ & $0.94\pm0.02$ \\
+      xlarge & $0.60\pm0.02$ & $0.70\pm0.02$ & $0.88\pm0.03$ & $0.87\pm0.03$ & $0.91\pm0.05$ & $0.90\pm0.06$ & $0.91\pm0.02$ & $0.97\pm0.03$ & $0.81\pm0.07$ & $0.88\pm0.04$ & $0.96\pm0.03$ & $0.91\pm0.07$ & $0.94\pm0.03$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.30, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf30}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.61\pm0.02$ & $0.71\pm0.02$ & $0.88\pm0.02$ & $0.88\pm0.02$ & $0.94\pm0.03$ & $0.90\pm0.04$ & $0.92\pm0.02$ & $0.96\pm0.02$ & $0.85\pm0.05$ & $0.90\pm0.02$ & $0.98\pm0.03$ & $0.92\pm0.06$ & $0.95\pm0.02$ \\
+      small & $0.61\pm0.02$ & $0.71\pm0.02$ & $0.90\pm0.03$ & $0.87\pm0.03$ & $0.90\pm0.09$ & $0.88\pm0.09$ & $0.88\pm0.04$ & $0.96\pm0.04$ & $0.78\pm0.09$ & $0.86\pm0.04$ & $0.97\pm0.03$ & $0.93\pm0.03$ & $0.95\pm0.02$ \\
+      medium & $0.60\pm0.02$ & $0.70\pm0.02$ & $0.89\pm0.03$ & $0.87\pm0.03$ & $0.92\pm0.04$ & $0.88\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.04$ & $0.81\pm0.04$ & $0.88\pm0.02$ & $0.97\pm0.03$ & $0.91\pm0.09$ & $0.94\pm0.05$ \\
+      large & $0.59\pm0.02$ & $0.68\pm0.01$ & $0.90\pm0.04$ & $0.84\pm0.02$ & $0.92\pm0.05$ & $0.92\pm0.03$ & $0.92\pm0.04$ & $0.98\pm0.01$ & $0.77\pm0.09$ & $0.86\pm0.06$ & $0.96\pm0.04$ & $0.90\pm0.05$ & $0.93\pm0.02$ \\
+      xlarge & $0.59\pm0.02$ & $0.69\pm0.02$ & $0.89\pm0.03$ & $0.86\pm0.03$ & $0.91\pm0.05$ & $0.90\pm0.06$ & $0.91\pm0.02$ & $0.97\pm0.03$ & $0.79\pm0.07$ & $0.87\pm0.04$ & $0.97\pm0.04$ & $0.90\pm0.08$ & $0.93\pm0.03$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.35, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf35}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.60\pm0.02$ & $0.70\pm0.02$ & $0.89\pm0.02$ & $0.86\pm0.03$ & $0.94\pm0.03$ & $0.90\pm0.04$ & $0.92\pm0.02$ & $0.96\pm0.02$ & $0.82\pm0.06$ & $0.88\pm0.03$ & $0.98\pm0.02$ & $0.91\pm0.06$ & $0.94\pm0.02$ \\
+      small & $0.60\pm0.02$ & $0.70\pm0.03$ & $0.91\pm0.03$ & $0.85\pm0.04$ & $0.90\pm0.09$ & $0.87\pm0.09$ & $0.88\pm0.04$ & $0.96\pm0.04$ & $0.76\pm0.10$ & $0.84\pm0.05$ & $0.97\pm0.03$ & $0.91\pm0.04$ & $0.94\pm0.02$ \\
+      medium & $0.60\pm0.03$ & $0.70\pm0.02$ & $0.89\pm0.03$ & $0.85\pm0.03$ & $0.93\pm0.04$ & $0.88\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.04$ & $0.79\pm0.05$ & $0.87\pm0.02$ & $0.97\pm0.03$ & $0.90\pm0.09$ & $0.93\pm0.05$ \\
+      large & $0.58\pm0.02$ & $0.67\pm0.02$ & $0.90\pm0.04$ & $0.82\pm0.03$ & $0.92\pm0.05$ & $0.92\pm0.03$ & $0.92\pm0.04$ & $0.98\pm0.01$ & $0.74\pm0.09$ & $0.84\pm0.06$ & $0.96\pm0.04$ & $0.89\pm0.06$ & $0.92\pm0.03$ \\
+      xlarge & $0.58\pm0.02$ & $0.68\pm0.03$ & $0.90\pm0.03$ & $0.84\pm0.03$ & $0.91\pm0.05$ & $0.90\pm0.07$ & $0.91\pm0.02$ & $0.97\pm0.03$ & $0.75\pm0.08$ & $0.85\pm0.05$ & $0.97\pm0.03$ & $0.90\pm0.08$ & $0.93\pm0.04$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.40, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf40}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.60\pm0.02$ & $0.69\pm0.02$ & $0.89\pm0.02$ & $0.85\pm0.03$ & $0.94\pm0.03$ & $0.89\pm0.04$ & $0.92\pm0.02$ & $0.96\pm0.03$ & $0.79\pm0.07$ & $0.87\pm0.04$ & $0.98\pm0.02$ & $0.90\pm0.05$ & $0.94\pm0.02$ \\
+      small & $0.59\pm0.02$ & $0.69\pm0.03$ & $0.91\pm0.03$ & $0.83\pm0.04$ & $0.90\pm0.09$ & $0.86\pm0.09$ & $0.88\pm0.05$ & $0.96\pm0.04$ & $0.72\pm0.11$ & $0.82\pm0.06$ & $0.97\pm0.03$ & $0.90\pm0.04$ & $0.93\pm0.02$ \\
+      medium & $0.59\pm0.03$ & $0.69\pm0.03$ & $0.90\pm0.03$ & $0.84\pm0.03$ & $0.93\pm0.04$ & $0.88\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.04$ & $0.77\pm0.05$ & $0.85\pm0.03$ & $0.97\pm0.03$ & $0.89\pm0.10$ & $0.93\pm0.05$ \\
+      large & $0.57\pm0.02$ & $0.66\pm0.02$ & $0.91\pm0.04$ & $0.80\pm0.03$ & $0.93\pm0.05$ & $0.92\pm0.03$ & $0.92\pm0.04$ & $0.98\pm0.01$ & $0.71\pm0.10$ & $0.82\pm0.07$ & $0.97\pm0.04$ & $0.88\pm0.07$ & $0.92\pm0.03$ \\
+      xlarge & $0.58\pm0.03$ & $0.67\pm0.03$ & $0.90\pm0.03$ & $0.82\pm0.04$ & $0.91\pm0.05$ & $0.90\pm0.07$ & $0.90\pm0.02$ & $0.97\pm0.03$ & $0.73\pm0.08$ & $0.83\pm0.05$ & $0.97\pm0.03$ & $0.88\pm0.09$ & $0.92\pm0.04$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.45, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf45}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.59\pm0.02$ & $0.68\pm0.02$ & $0.90\pm0.02$ & $0.83\pm0.03$ & $0.94\pm0.03$ & $0.89\pm0.04$ & $0.91\pm0.02$ & $0.96\pm0.02$ & $0.76\pm0.08$ & $0.85\pm0.05$ & $0.98\pm0.02$ & $0.88\pm0.06$ & $0.93\pm0.02$ \\
+      small & $0.58\pm0.02$ & $0.67\pm0.03$ & $0.92\pm0.03$ & $0.81\pm0.04$ & $0.90\pm0.09$ & $0.86\pm0.10$ & $0.87\pm0.05$ & $0.96\pm0.04$ & $0.69\pm0.12$ & $0.80\pm0.07$ & $0.97\pm0.03$ & $0.89\pm0.04$ & $0.93\pm0.02$ \\
+      medium & $0.58\pm0.03$ & $0.67\pm0.03$ & $0.90\pm0.03$ & $0.82\pm0.04$ & $0.93\pm0.04$ & $0.87\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.04$ & $0.74\pm0.06$ & $0.83\pm0.03$ & $0.98\pm0.03$ & $0.88\pm0.10$ & $0.92\pm0.05$ \\
+      large & $0.56\pm0.03$ & $0.65\pm0.03$ & $0.91\pm0.03$ & $0.78\pm0.04$ & $0.93\pm0.05$ & $0.91\pm0.03$ & $0.92\pm0.04$ & $0.98\pm0.01$ & $0.67\pm0.11$ & $0.79\pm0.08$ & $0.97\pm0.03$ & $0.86\pm0.08$ & $0.91\pm0.04$ \\
+      xlarge & $0.57\pm0.03$ & $0.66\pm0.03$ & $0.91\pm0.03$ & $0.80\pm0.04$ & $0.92\pm0.05$ & $0.89\pm0.06$ & $0.90\pm0.02$ & $0.97\pm0.03$ & $0.69\pm0.07$ & $0.80\pm0.05$ & $0.97\pm0.03$ & $0.87\pm0.10$ & $0.92\pm0.05$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.50, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf50}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.57\pm0.02$ & $0.67\pm0.02$ & $0.91\pm0.02$ & $0.81\pm0.03$ & $0.95\pm0.03$ & $0.88\pm0.03$ & $0.91\pm0.02$ & $0.97\pm0.03$ & $0.72\pm0.08$ & $0.82\pm0.05$ & $0.98\pm0.02$ & $0.86\pm0.06$ & $0.92\pm0.02$ \\
+      small & $0.56\pm0.03$ & $0.66\pm0.04$ & $0.92\pm0.03$ & $0.79\pm0.05$ & $0.90\pm0.08$ & $0.86\pm0.10$ & $0.87\pm0.05$ & $0.96\pm0.05$ & $0.65\pm0.13$ & $0.76\pm0.09$ & $0.97\pm0.03$ & $0.88\pm0.04$ & $0.92\pm0.02$ \\
+      medium & $0.57\pm0.03$ & $0.66\pm0.03$ & $0.91\pm0.02$ & $0.80\pm0.04$ & $0.93\pm0.04$ & $0.87\pm0.05$ & $0.90\pm0.03$ & $0.96\pm0.04$ & $0.70\pm0.06$ & $0.81\pm0.04$ & $0.98\pm0.03$ & $0.87\pm0.11$ & $0.92\pm0.06$ \\
+      large & $0.54\pm0.03$ & $0.63\pm0.04$ & $0.92\pm0.03$ & $0.75\pm0.05$ & $0.94\pm0.05$ & $0.90\pm0.04$ & $0.92\pm0.04$ & $0.98\pm0.02$ & $0.63\pm0.12$ & $0.76\pm0.10$ & $0.97\pm0.03$ & $0.84\pm0.09$ & $0.89\pm0.05$ \\
+      xlarge & $0.55\pm0.04$ & $0.64\pm0.04$ & $0.92\pm0.03$ & $0.78\pm0.06$ & $0.92\pm0.05$ & $0.89\pm0.06$ & $0.90\pm0.02$ & $0.97\pm0.03$ & $0.64\pm0.07$ & $0.77\pm0.05$ & $0.97\pm0.03$ & $0.86\pm0.11$ & $0.91\pm0.05$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.55, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf55}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.56\pm0.02$ & $0.65\pm0.02$ & $0.91\pm0.02$ & $0.78\pm0.03$ & $0.95\pm0.03$ & $0.87\pm0.03$ & $0.91\pm0.02$ & $0.97\pm0.03$ & $0.70\pm0.08$ & $0.81\pm0.05$ & $0.98\pm0.02$ & $0.84\pm0.05$ & $0.90\pm0.02$ \\
+      small & $0.55\pm0.03$ & $0.63\pm0.04$ & $0.93\pm0.03$ & $0.76\pm0.06$ & $0.91\pm0.08$ & $0.85\pm0.09$ & $0.87\pm0.04$ & $0.96\pm0.05$ & $0.60\pm0.14$ & $0.73\pm0.10$ & $0.97\pm0.03$ & $0.85\pm0.04$ & $0.91\pm0.02$ \\
+      medium & $0.56\pm0.03$ & $0.65\pm0.03$ & $0.92\pm0.02$ & $0.78\pm0.04$ & $0.93\pm0.04$ & $0.86\pm0.05$ & $0.89\pm0.03$ & $0.97\pm0.03$ & $0.66\pm0.06$ & $0.78\pm0.04$ & $0.98\pm0.03$ & $0.86\pm0.11$ & $0.91\pm0.06$ \\
+      large & $0.52\pm0.04$ & $0.60\pm0.05$ & $0.93\pm0.03$ & $0.72\pm0.06$ & $0.94\pm0.05$ & $0.89\pm0.04$ & $0.91\pm0.04$ & $0.98\pm0.02$ & $0.58\pm0.12$ & $0.72\pm0.10$ & $0.97\pm0.03$ & $0.81\pm0.12$ & $0.88\pm0.07$ \\
+      xlarge & $0.54\pm0.04$ & $0.63\pm0.04$ & $0.93\pm0.03$ & $0.76\pm0.06$ & $0.92\pm0.05$ & $0.88\pm0.06$ & $0.90\pm0.02$ & $0.97\pm0.03$ & $0.61\pm0.07$ & $0.75\pm0.05$ & $0.97\pm0.03$ & $0.85\pm0.11$ & $0.90\pm0.06$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+\begin{table*}[!htbp]
+  \centering
+  \caption{Results with CONF\_THRES = 0.60, IOU\_THRES = 0.50, IOU\_OK\_THRESH = 0.50}
+  \label{tab:Y11_conf60}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|cccc|ccc|ccc|ccc}
+      \toprule
+      \multirow{2}{*}{\textbf{Model}} & \multicolumn{4}{c}{\textbf{Segmentation}} & \multicolumn{3}{c}{\textbf{Meningioma}} & \multicolumn{3}{c}{\textbf{Glioma}} & \multicolumn{3}{c}{\textbf{Pituitary Tumor}} \\
+      & \textbf{IoU} & \textbf{Dice} & \textbf{Precision} & \textbf{Recall} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+      \midrule
+      nano & $0.54\pm0.02$ & $0.62\pm0.02$ & $0.92\pm0.02$ & $0.75\pm0.03$ & $0.95\pm0.02$ & $0.85\pm0.04$ & $0.89\pm0.02$ & $0.97\pm0.03$ & $0.65\pm0.09$ & $0.77\pm0.06$ & $0.98\pm0.02$ & $0.81\pm0.05$ & $0.89\pm0.02$ \\
+      small & $0.52\pm0.03$ & $0.61\pm0.04$ & $0.94\pm0.03$ & $0.72\pm0.06$ & $0.92\pm0.08$ & $0.84\pm0.10$ & $0.87\pm0.05$ & $0.96\pm0.05$ & $0.55\pm0.14$ & $0.69\pm0.11$ & $0.97\pm0.03$ & $0.82\pm0.04$ & $0.89\pm0.03$ \\
+      medium & $0.54\pm0.03$ & $0.62\pm0.04$ & $0.93\pm0.02$ & $0.74\pm0.04$ & $0.94\pm0.03$ & $0.85\pm0.05$ & $0.89\pm0.03$ & $0.97\pm0.04$ & $0.61\pm0.07$ & $0.75\pm0.05$ & $0.98\pm0.03$ & $0.83\pm0.12$ & $0.89\pm0.06$ \\
+      large & $0.50\pm0.05$ & $0.57\pm0.06$ & $0.94\pm0.03$ & $0.68\pm0.08$ & $0.95\pm0.04$ & $0.87\pm0.05$ & $0.91\pm0.04$ & $0.98\pm0.02$ & $0.53\pm0.13$ & $0.68\pm0.12$ & $0.98\pm0.03$ & $0.77\pm0.14$ & $0.85\pm0.09$ \\
+      xlarge & $0.52\pm0.04$ & $0.61\pm0.05$ & $0.93\pm0.02$ & $0.73\pm0.06$ & $0.93\pm0.05$ & $0.87\pm0.06$ & $0.90\pm0.02$ & $0.97\pm0.03$ & $0.57\pm0.07$ & $0.71\pm0.06$ & $0.97\pm0.03$ & $0.82\pm0.13$ & $0.88\pm0.07$ \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
