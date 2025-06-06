@@ -1,0 +1,23 @@
+if A7 is FS0 and A4 is FS0 and A8 is FS0 then C2
+if A7 is FS0 and A4 is FS0 and A8 is FS1 then C2
+if A7 is FS0 and A4 is FS0 and A8 is FS2 then C2
+if A7 is FS0 and A4 is FS1 and A3 is FS0 then C2
+if A7 is FS0 and A4 is FS1 and A3 is FS1 then C2
+if A7 is FS0 and A4 is FS1 and A3 is FS2 then C2
+if A7 is FS0 and A4 is FS2 then C2
+if A7 is FS1 and A6 is FS0 and A4 is FS0 then C2
+if A7 is FS1 and A6 is FS0 and A4 is FS1 then C2
+if A7 is FS1 and A6 is FS0 and A4 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A8 is FS0 then C3
+if A7 is FS1 and A6 is FS1 and A8 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A8 is FS2 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 then C1
+if A7 is FS1 and A6 is FS2 and A8 is FS1 then C1
+if A7 is FS1 and A6 is FS2 and A8 is FS2 then C1
+if A7 is FS2 and A8 is FS0 and A12 is FS0 then C1
+if A7 is FS2 and A8 is FS0 and A12 is FS1 then C3
+if A7 is FS2 and A8 is FS0 and A12 is FS2 then C1
+if A7 is FS2 and A8 is FS1 and A14 is FS0 then C1
+if A7 is FS2 and A8 is FS1 and A14 is FS1 then C1
+if A7 is FS2 and A8 is FS1 and A14 is FS2 then C1
+if A7 is FS2 and A8 is FS2 then C1

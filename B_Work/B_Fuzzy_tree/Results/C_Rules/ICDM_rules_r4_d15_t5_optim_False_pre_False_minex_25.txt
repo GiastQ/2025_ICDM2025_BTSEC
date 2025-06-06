@@ -1,0 +1,268 @@
+if A7 is FS0 then C2
+if A7 is FS1 and A6 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS0 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS0 and A12 is FS1 then C3
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS0 and A12 is FS2 then C3
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS0 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS0 and A12 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS1 and A11 is FS0 then C3
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS1 and A11 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS1 and A11 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS1 and A11 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS1 and A11 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS2 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS2 and A12 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS2 and A12 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS2 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS2 and A12 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS0 and A8 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS1 and A13 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS1 and A13 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS1 and A13 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS1 and A13 is FS3 then C3
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS1 and A13 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS2 and A2 is FS0 then C3
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS2 and A2 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS2 and A2 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS2 and A2 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS2 and A2 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS0 and A12 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS1 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS1 and A12 is FS1 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS1 and A12 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS1 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS1 and A12 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS1 and A1 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS1 and A11 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS1 and A8 is FS4 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS2 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS3 then C2
+if A7 is FS1 and A6 is FS1 and A4 is FS4 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS0 then C3
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS1 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS1 and A12 is FS1 then C3
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS1 and A12 is FS2 then C3
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS1 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS1 and A12 is FS4 then C1
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS2 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS0 and A2 is FS4 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS0 then C3
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS1 and A12 is FS0 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS1 and A12 is FS1 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS1 and A12 is FS2 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS1 and A12 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS1 and A12 is FS4 then C1
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS2 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS1 and A2 is FS4 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS2 and A2 is FS0 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS2 and A2 is FS1 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS2 and A2 is FS2 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS2 and A2 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS2 and A2 is FS4 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS3 then C2
+if A7 is FS1 and A6 is FS2 and A8 is FS4 then C2
+if A7 is FS1 and A6 is FS3 then C2
+if A7 is FS2 and A12 is FS0 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS0 and A13 is FS1 then C1
+if A7 is FS2 and A12 is FS0 and A13 is FS2 then C2
+if A7 is FS2 and A12 is FS0 and A13 is FS3 then C2
+if A7 is FS2 and A12 is FS0 and A13 is FS4 then C1
+if A7 is FS2 and A12 is FS1 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS1 and A13 is FS1 and A14 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS1 and A14 is FS1 then C1
+if A7 is FS2 and A12 is FS1 and A13 is FS1 and A14 is FS2 then C1
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS1 and A14 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS1 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS1 and A14 is FS2 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS2 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS3 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS0 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS1 and A2 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS1 and A2 is FS1 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS1 and A2 is FS2 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS1 and A2 is FS3 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS1 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS2 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS3 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS2 and A8 is FS4 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS0 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS1 and A4 is FS0 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS1 and A4 is FS1 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS1 and A4 is FS2 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS2 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS3 then C1
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS0 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS1 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS2 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS3 then C3
+if A7 is FS2 and A12 is FS1 and A13 is FS3 and A14 is FS2 and A8 is FS4 then C2
+if A7 is FS2 and A12 is FS1 and A13 is FS4 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS2 and A14 is FS0 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS2 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS2 and A14 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS3 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS0 and A13 is FS4 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A4 is FS0 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A4 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A4 is FS2 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS2 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS2 and A14 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS0 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS3 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS4 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS3 and A14 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS1 and A13 is FS4 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS2 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS2 and A13 is FS1 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS2 and A13 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS2 and A13 is FS3 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS2 and A13 is FS4 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS3 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS0 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS0 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS0 and A13 is FS1 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS0 and A13 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS0 and A13 is FS3 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS0 and A13 is FS4 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS0 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS1 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS2 and A14 is FS0 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS2 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS2 and A14 is FS2 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS0 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS1 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS2 then C3
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS1 and A13 is FS4 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS2 and A6 is FS0 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS2 and A6 is FS1 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS2 and A6 is FS2 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS2 and A6 is FS3 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS2 and A6 is FS4 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS3 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS1 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS0 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS1 and A6 is FS0 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS1 and A6 is FS1 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS1 and A6 is FS2 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS1 and A6 is FS3 then C1
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS1 and A6 is FS4 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS2 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS3 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS2 and A2 is FS4 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS3 then C2
+if A7 is FS2 and A12 is FS2 and A8 is FS4 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS0 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS1 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS0 and A0 is FS0 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS0 and A0 is FS1 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS0 and A0 is FS2 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS0 and A0 is FS3 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS0 and A0 is FS4 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS0 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS1 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS2 and A5 is FS0 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS2 and A5 is FS1 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS2 and A5 is FS2 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS2 and A5 is FS3 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS2 and A5 is FS4 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS3 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS1 and A9 is FS4 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS2 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS3 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS2 and A8 is FS4 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS3 and A9 is FS1 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS3 and A9 is FS2 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS3 and A9 is FS3 then C1
+if A7 is FS2 and A12 is FS3 and A6 is FS3 and A9 is FS4 then C2
+if A7 is FS2 and A12 is FS3 and A6 is FS4 then C1
+if A7 is FS2 and A12 is FS4 and A8 is FS0 then C1
+if A7 is FS2 and A12 is FS4 and A8 is FS1 then C1
+if A7 is FS2 and A12 is FS4 and A8 is FS2 then C2
+if A7 is FS2 and A12 is FS4 and A8 is FS3 then C2
+if A7 is FS2 and A12 is FS4 and A8 is FS4 then C2
+if A7 is FS3 and A12 is FS0 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS0 and A14 is FS0 then C3
+if A7 is FS3 and A12 is FS1 and A2 is FS0 and A14 is FS1 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS0 and A14 is FS2 then C3
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS0 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS1 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS2 and A8 is FS0 then C3
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS2 and A8 is FS1 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS2 and A8 is FS2 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS2 and A8 is FS3 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS2 and A8 is FS4 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS0 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS1 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS3 and A14 is FS2 then C3
+if A7 is FS3 and A12 is FS1 and A2 is FS1 and A13 is FS4 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS2 and A8 is FS0 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS2 and A8 is FS1 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS2 and A8 is FS2 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS2 and A8 is FS3 then C1
+if A7 is FS3 and A12 is FS1 and A2 is FS3 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS0 and A13 is FS0 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS0 and A13 is FS1 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS0 and A13 is FS2 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS0 and A13 is FS3 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS0 and A13 is FS4 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS0 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS1 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A6 is FS1 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A6 is FS2 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A6 is FS3 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS0 and A6 is FS4 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS1 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS2 and A14 is FS2 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS0 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS1 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS2 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS3 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS1 and A6 is FS4 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS3 and A14 is FS2 then C3
+if A7 is FS3 and A12 is FS2 and A2 is FS1 and A13 is FS4 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS2 and A8 is FS0 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS2 and A8 is FS1 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS2 and A8 is FS2 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS2 and A8 is FS3 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS2 and A8 is FS4 then C1
+if A7 is FS3 and A12 is FS2 and A2 is FS3 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS1 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS2 and A8 is FS0 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS2 and A8 is FS1 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS2 and A8 is FS2 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS2 and A8 is FS3 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS2 and A8 is FS4 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS3 and A8 is FS0 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS3 and A8 is FS1 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS3 and A8 is FS2 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS3 and A8 is FS3 then C2
+if A7 is FS3 and A12 is FS3 and A9 is FS3 and A8 is FS4 then C1
+if A7 is FS3 and A12 is FS3 and A9 is FS4 then C2
+if A7 is FS3 and A12 is FS4 then C1
+if A7 is FS4 and A12 is FS0 then C1
+if A7 is FS4 and A12 is FS1 then C1
+if A7 is FS4 and A12 is FS2 then C1
+if A7 is FS4 and A12 is FS3 then C1
+if A7 is FS4 and A12 is FS4 then C2
