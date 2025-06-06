@@ -6,7 +6,7 @@ from ultralytics import YOLO
 import re
 from sklearn.metrics import jaccard_score
 
-FOLD_BASE        = os.path.abspath(os.path.join(".", "\A_Datasets", "A_Train_Yolo", "fold_data"))
+FOLD_BASE        = os.path.abspath(os.path.join(".", "A_Datasets", "A_Train_Yolo", "fold_data"))
 BASE_DIR         = os.path.abspath(os.path.join(".", "B_Work", "A_Y11"))
 
 DIMENSIONS       = ["1_runs_nano","2_runs_small","3_runs_medium","4_runs_large","5_runs_xlarge"]
