@@ -1,0 +1,11 @@
+ultralytics==8.3.23
+ultralytics-thop==2.0.9
+scikit-learn
+tabulate
+scipy==1.15.2
+seaborn==0.13.2
+numpy==1.26.4
+onnxruntime==1.19.0
+onnxruntime-gpu==1.21.0
+opencv-python==4.10.0.84
+openpyxl==3.1.5
