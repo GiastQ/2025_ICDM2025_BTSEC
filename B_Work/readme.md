@@ -70,21 +70,17 @@ B_Work/
 -----------------------------------------------
 ## Before You Start: Download Required Large Files
 
-The folders `A_Y11_Models/` (containing the trained YOLOv11 models) and `B_Y11_inference/` (containing all inference results across thresholds and model sizes)
-are too large to be stored directly in this repository.
+The folder `B_Y11_inference/` (containing all inference results across thresholds and model sizes) are too large to be stored directly in this repository.
 
 To proceed:
 
-1. Download the ZIP archive containing both folders from the following link:
+1. Download the ZIP archive containing folder from the following link:
    ➤ [Insert download link here]
 
 2. Extract the archive.
 
 3. Place the extracted folders in their correct location inside the `B_Work/` directory,
    so that the structure matches the one described in the README.
-
-**IMPORTANT: These files are essential for running evaluation scripts and generating results
-without re-training the models from scratch.**
 
 -----------------------------------------------
 
